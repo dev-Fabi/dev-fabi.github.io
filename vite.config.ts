@@ -1,6 +1,5 @@
 import {resolve} from 'path';
 import {defineConfig} from 'vite';
-import Icons from 'unplugin-icons/vite'
 
 export default defineConfig({
     root: resolve(__dirname, "src"),
@@ -16,9 +15,4 @@ export default defineConfig({
             },
         },
     },
-    plugins: [
-        Icons({
-            compiler: 'raw',
-        }),
-    ],
 });

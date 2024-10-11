@@ -10,5 +10,4 @@ npm run dev
 
 - Build tool: https://vite.dev/
 - CSS: https://picocss.com/
-- Icons: https://github.com/unplugin/unplugin-icons#readme
-    - Material Symbols Light: https://icones.js.org/collection/material-symbols-light 
+- Icons: https://icons.getbootstrap.com/

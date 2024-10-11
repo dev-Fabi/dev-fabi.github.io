@@ -6,3 +6,59 @@
   height: 1px;
   overflow: hidden;
 }
+
+.avatar {
+  border-radius: 100%;
+}
+
+img {
+  &.small {
+    height: 40px;
+  }
+
+  &.medium {
+    height: 11rem;
+  }
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+
+  * {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.m-1 {
+  margin-right: 6px;
+  margin-left: 6px;
+}
+
+ul.no-list {
+  list-style: none;
+
+  li {
+    display: inline-block;
+  }
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}

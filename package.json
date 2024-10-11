@@ -9,12 +9,10 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@iconify-json/material-symbols-light": "^1.2.3",
     "@picocss/pico": "^2.0.6",
     "@types/node": "^22.7.5",
     "sass": "^1.79.4",
     "typescript": "^5.5.3",
-    "unplugin-icons": "^0.19.3",
     "vite": "^5.4.8"
   }
 }

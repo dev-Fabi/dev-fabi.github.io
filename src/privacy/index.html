@@ -15,27 +15,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png"/>
 </head>
 <body>
-<header class="container-fluid">
-    <nav>
-        <ul>
-            <li>
-                <a href="/">
-                    <img src="/images/profile-square.png" class="avatar small" alt="Profile picture of Fabian Schedler">
-                </a>
-            </li>
-            <li>
-                <a href="/" class="contrast"><strong>Fabian Schedler</strong></a>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <div class="theme-toggle">
-                    <a href="#" class="contrast" data-placement="left"></a><span class="sr-only"></span>
-                </div>
-            </li>
-        </ul>
-    </nav>
-</header>
+<partial-header></partial-header>
 
 <main class="container">
     <h1>Privacy Policy</h1>
@@ -87,17 +67,7 @@
     </p>
 </main>
 
-<footer class="container">
-    <nav>
-        <ul>
-            <li><small>&copy; 2024 Fabian Schedler</small></li>
-        </ul>
-        <ul>
-            <li><small><a href="/imprint/" class="secondary">Imprint</a></small></li>
-            <li><small><a href="/privacy/" class="secondary">Privacy</a></small></li>
-        </ul>
-    </nav>
-</footer>
+<partial-footer></partial-footer>
 <script type="module" src="/main.ts"></script>
 </body>
 </html>

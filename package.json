@@ -11,7 +11,9 @@
   "devDependencies": {
     "@picocss/pico": "^2.0.6",
     "@types/node": "^22.7.5",
+    "linkedom": "^0.18.5",
     "sass": "^1.79.4",
+    "sharp": "^0.33.5",
     "typescript": "^5.5.3",
     "vite": "^5.4.8"
   }
